@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ###############
-# debian reis #
+#Yurtsever :) #
 ###############
 
 #Colors
@@ -18,17 +18,17 @@
 # variables
     blink='\e[5m'
     setdir=$PWD
-    version='Mys Hack Tool v2.1'
+    version='Log4r v2.1'
 
 # help
 if [[ $1 =~ ^(-h|--help|-y|--yardım) ]] ; then
     echo ""
-    echo -e "Default Kullanım İçin Dosyayı ${lightgreen}sudo bash mys-tool.sh$tp"
+    echo -e "Default Kullanım İçin Dosyayı ${lightgreen}sudo bash Log4r.sh$tp"
     echo "----------------------------------------------------------"
     echo -e $cyan"    Create by           $white":" $red Mysorfilox$tp"
-    echo -e $cyan"    Github              $white":" $red https://github.com/$tp"
-    echo -e $cyan"    Instagram           $white":" $red Mysorfilox$tp"
-    echo -e "$cyan    Discord            $white : $red https://discord.io/$tp"
+    echo -e $cyan"    Github              $white":" $red https://github.com/Log4r-tool$tp"
+    echo -e $cyan"    Instagram           $white":" $red _iskrraa_$tp"
+    echo -e "$cyan    Discord            $white : $red https://discord.io/Log4r$tp"
     echo -e "$cyan    Tester             $white : $red Mys$tp"
     echo -e "$cyan    Developper         $white : $red https://github.com/$tp"
     exit 0
@@ -36,7 +36,7 @@ fi
 if [[ $USER = "root" ]] ; then
     echo "ok" &> /dev/null
 else
-    echo -e "$red sudo bash mys-tool.sh${tp} İle Deneyiniz.!"
+    echo -e "$red sudo bash Log4r.sh${tp} İle Deneyiniz.!"
     exit 1
 fi
 if [[ $1 =~ ^(-v|--version) ]] ; then
@@ -178,7 +178,7 @@ function ok {
 trap ctrl_c INT
 ctrl_c() {
 echo -e "\n"
-echo -e "[${blink}${yellow}*${tp}]$blue Mys-Hacktool Programini Tercih Ettiginiz Için Teşekkürler  {ByChan} :)$tp"
+echo -e "[${blink}${yellow}*${tp}]$blue Log4r.sh Programini Tercih Ettiginiz Için Teşekkürler  {LOg4r} :)$tp"
 exit 0
 }
 
@@ -322,10 +322,10 @@ cd $setdir
 
 echo ""
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Create by           $white":" $red Mysorfilox$tp ${blink}${lightgreen}                    |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Discord             $white":" $red LOG4R$tp${blink}${lightgreen}                          |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Github              $white":" $red https://github.com/Mys-tool$tp ${blink}${lightgreen}   |$tp"
-echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red @_barann.35$tp ${blink}${lightgreen}                   |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Create by           $white":" $red Log4r$tp ${blink}${lightgreen}                    |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Discord             $white":" $red Log4r$tp${blink}${lightgreen}                          |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Github              $white":" $red https://github.com/Log4r-tool$tp ${blink}${lightgreen}   |$tp"
+echo -e "${blink}${lightgreen}  |$tp ${cyan}Instagram           $white":" $red @_iskrraa_.35$tp ${blink}${lightgreen}                   |$tp"
 echo -e "${blink}${lightgreen}  ---------------------------------------------------------$tp\n" 
 echo "  ~~~~~~~~~~~~~~~~~~~~~ Mys-Tool ~~~~~~~~~~~~~~~~~~~~~~~~~" 
         echo ""
@@ -931,7 +931,7 @@ echo "  ~~~~~~~~~~~~~~~~~~~~~ Mys-Tool ~~~~~~~~~~~~~~~~~~~~~~~~~"
             x)
                 clear
                
-                echo " BCHackTool Programini Tercih Ettiginiz Icin Tesekkurler {Mysorfilox} !!" 
+                echo " LOg4r Programini Tercih Ettiginiz Icin Tesekkurler {Log4r} !!" 
                 echo ""
                 exit 0
                 ;;
